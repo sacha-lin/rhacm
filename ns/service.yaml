@@ -8,7 +8,6 @@
       app.kubernetes.io/component: httpd
       app.kubernetes.io/instance: httpd
     name: httpd
-    namespace: myproject
   spec:
     clusterIP: 10.246.227.232
     clusterIPs:
